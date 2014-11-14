@@ -1,0 +1,12 @@
+C:\Home\Lab5WorkerNode\Lab5WorkerNode\bin\Debug\Lab5WorkerNode.exe
+C:\Home\Lab5WorkerNode\Lab5WorkerNode\bin\Debug\Lab5WorkerNode.pdb
+C:\Home\Lab5WorkerNode\Lab5WorkerNode\obj\x86\Debug\Lab5WorkerNode.exe
+C:\Home\Lab5WorkerNode\Lab5WorkerNode\obj\x86\Debug\Lab5WorkerNode.pdb
+c:\Home\Lab5WorkerNode\Lab5WorkerNode\obj\x86\Debug\Lab5WorkerNode.csprojResolveAssemblyReference.cache
+C:\Home\Lab5\Lab5WorkerNode\Lab5WorkerNode\obj\x86\Debug\Lab5WorkerNode.exe
+C:\Home\Lab5\Lab5WorkerNode\Lab5WorkerNode\obj\x86\Debug\Lab5WorkerNode.pdb
+C:\Home\Lab5\Lab5WorkerNode\Lab5WorkerNode\obj\x86\Debug\Lab5WorkerNode.csprojResolveAssemblyReference.cache
+C:\Home\Lab5\Lab5WorkerNode\Lab5WorkerNode\bin\Debug\Lab5WorkerNode.exe
+C:\Home\Lab5\Lab5WorkerNode\Lab5WorkerNode\bin\Debug\Lab5WorkerNode.pdb
+C:\Home\Lab5\Lab5WorkerNode\Lab5WorkerNode\bin\Debug\TaskLib.dll
+C:\Home\Lab5\Lab5WorkerNode\Lab5WorkerNode\bin\Debug\TaskLib.pdb

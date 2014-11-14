@@ -1,0 +1,10 @@
+C:\Home\Lab5\TaskLib\TaskLib\bin\Debug\TaskLib.dll
+C:\Home\Lab5\TaskLib\TaskLib\bin\Debug\TaskLib.pdb
+C:\Home\Lab5\TaskLib\TaskLib\obj\Debug\TaskLib.dll
+C:\Home\Lab5\TaskLib\TaskLib\obj\Debug\TaskLib.pdb
+C:\Home\Lab5\TaskLib\TaskLib\obj\Debug\TaskLib.csprojResolveAssemblyReference.cache
+c:\home\lab5\Lab5_My\TaskLib\TaskLib\bin\Debug\TaskLib.dll
+c:\home\lab5\Lab5_My\TaskLib\TaskLib\bin\Debug\TaskLib.pdb
+c:\home\lab5\Lab5_My\TaskLib\TaskLib\obj\Debug\ResolveAssemblyReference.cache
+c:\home\lab5\Lab5_My\TaskLib\TaskLib\obj\Debug\TaskLib.dll
+c:\home\lab5\Lab5_My\TaskLib\TaskLib\obj\Debug\TaskLib.pdb
