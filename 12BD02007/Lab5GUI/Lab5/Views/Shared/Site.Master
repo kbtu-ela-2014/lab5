@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript"/>
+        var counter = 0;
+        var ActiveId = null;
+
+        function edit(id) {
+            if (counter != 0) {
+                if (ActiveId == id) {
+                    save();
+                    return;
+                }
+
+                alert("Previous changes should be submited before making new ones!")
+                return;
+            }
+
+            var btn = document.getElementById(id);
+            var field = btn.parentNode.nextSibling.nextSibling;
+
+            while (field != null) {
+                field.innerHTML = '<input type="text" name="Edited" value="'+ trim(field.innerHTML) +'"/>';
+                field = field.nextSibling;
+            }
+
+            btn.value = "save";
+            ActiveId = id;
+
+            counter = 1;
+        }
+
+        function save() {
+            var btn = document.getElementById(ActiveId);
+            var elem = btn.parentNode.nextSibling;
+            elem.innerHTML = '<input type="hidden" name="Edited" value="'+ trim(elem.innerHTML) +'"/>';
+
+            document.forms[0].action = "Student/Edit";
+            document.forms[0].submit();
+        }
+
+        function delete_(id) {
+            var btn = document.getElementById(id);
+            var elem = btn.parentNode.nextSibling;
+            elem.innerHTML = '<input type="hidden" name="Deleted" value="'+ trim(elem.innerHTML) +'"/>';
+
+            document.forms[0].action = "Student/Delete";
+            document.forms[0].submit();
+        }
+
+        function trim(s) {
+             //if (!s)
+             //   return null;
+
+             var l=0,
+                 r=s.length -1;
+
+             while(l < s.length && s[l] == ' ')
+                l++;
+
+             while(r > l && s[r] == ' ')
+                r-=1;
+
+             return s.substring(l, r+1);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="page">
+
+        <div id="header">
+            <div id="title">
+                <h1>Tasks</h1>
+            </div>
+              
+            <div id="logindisplay">
+                <br>
+            </div> 
+            
+            <div id="menucontainer">
+            
+                <ul id="menu">              
+                    <li><%: Html.ActionLink("Home page", "Index", "Task")%></li>
+                    <li><%: Html.ActionLink("About program", "About", "Home")%></li>
+                </ul>
+            
+            </div>
+        </div>
+
+        <div id="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+            <div id="footer">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Home\Lab5\Lab5GUI\Lab5\bin\TaskLib.dll
+C:\Home\Lab5\Lab5GUI\Lab5\bin\TaskLib.pdb
+C:\Home\Lab5\Lab5GUI\Lab5\obj\Debug\Lab5.csprojResolveAssemblyReference.cache
+c:\Home\Lab5\Lab5GUI\Lab5\bin\Lab5.dll
+c:\Home\Lab5\Lab5GUI\Lab5\bin\Lab5.pdb
+c:\Home\Lab5\Lab5GUI\Lab5\obj\Debug\Lab5.dll
+c:\Home\Lab5\Lab5GUI\Lab5\obj\Debug\Lab5.pdb
+c:\home\lab5\Lab5_My\Lab5GUI\Lab5\bin\Lab5.dll
+c:\home\lab5\Lab5_My\Lab5GUI\Lab5\bin\Lab5.pdb
+c:\home\lab5\Lab5_My\Lab5GUI\Lab5\bin\TaskLib.dll
+c:\home\lab5\Lab5_My\Lab5GUI\Lab5\bin\TaskLib.pdb
+c:\home\lab5\Lab5_My\Lab5GUI\Lab5\obj\Debug\ResolveAssemblyReference.cache
+c:\home\lab5\Lab5_My\Lab5GUI\Lab5\obj\Debug\Lab5.dll
+c:\home\lab5\Lab5_My\Lab5GUI\Lab5\obj\Debug\Lab5.pdb

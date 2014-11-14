@@ -1,0 +1,16 @@
+C:\Home\Lab3\Lab3\bin\Lab3.dll
+C:\Home\Lab3\Lab3\bin\Lab3.pdb
+C:\Home\Lab3\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+C:\Home\Lab3\Lab3\obj\Debug\Lab3.dll
+C:\Home\Lab3\Lab3\obj\Debug\Lab3.pdb
+F:\Lab3\Lab3\bin\Lab3.dll
+F:\Lab3\Lab3\bin\Lab3.pdb
+F:\Lab3\Lab3\obj\Debug\Lab3.dll
+F:\Lab3\Lab3\obj\Debug\Lab3.pdb
+c:\Home\Lab5\Lab5GUI\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+c:\Home\Lab5\Lab5GUI\Lab3\obj\Debug\Lab3.dll
+c:\Home\Lab5\Lab5GUI\Lab3\obj\Debug\Lab3.pdb
+c:\Home\Lab5\Lab5GUI\Lab3\bin\Lab3.dll
+c:\Home\Lab5\Lab5GUI\Lab3\bin\Lab3.pdb
+c:\Home\Lab5\Lab5GUI\Lab3\bin\TaskLib.dll
+c:\Home\Lab5\Lab5GUI\Lab3\bin\TaskLib.pdb
