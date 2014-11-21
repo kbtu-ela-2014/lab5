@@ -1,0 +1,58 @@
+﻿@model Lab5.Models.FactorizationAnswer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FactorizationAnswer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.typeOfAnswer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.typeOfAnswer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.task_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.task_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.answer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.answer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.elapsedMS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.elapsedMS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.number)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

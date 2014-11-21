@@ -1,0 +1,17 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("HandleForm", "Home"))
+{
+    <h1>Enter a number:</h1>
+    @Html.TextBox("number"); 
+<br /><br />
+    <h1>Select action:</h1><br />
+    @Html.RadioButton("action", "factorization", true); <h1>Factorization</h1>
+    @Html.RadioButton("action", "euler", false); <h1>Euler function</h1>
+<br /><br />
+ 
+<input type="submit" value="Submit" />
+ }
