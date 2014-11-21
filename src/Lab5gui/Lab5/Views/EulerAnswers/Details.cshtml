@@ -1,0 +1,50 @@
+﻿@model Lab5.Models.EulerAnswer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EulerAnswer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.task_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.task_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.result)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.result)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.elapsedMS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.elapsedMS)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

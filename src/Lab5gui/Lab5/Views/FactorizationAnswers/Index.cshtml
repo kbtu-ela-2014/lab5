@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Lab5.Models.FactorizationAnswer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.typeOfAnswer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.task_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.answer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.elapsedMS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.number)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.typeOfAnswer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.task_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.answer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.elapsedMS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.number)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
