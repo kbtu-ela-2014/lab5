@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<!HEAD STARTS>
+<head>
+<title>Enjoy chat</title>
+</head>
+<!BODY STARTS>	
+<body>
+<div id="container">
+    <div id="header" style="background-color:#00FF7F;"> <h1 style="margin-bottom:0;text-align:center"><i><b>Enjoy!</b>  </i></h1> </div>
+    <div id="content" style="background-color:#B0C4DE;height:500px;text-align:center;">
+		<form method = "get">
+			<table align = "center">
+		 		<tr>	
+		 			<td> Select operation: </td>		
+		 			<td> 
+		 				<select name="op" style = "width:200px">
+							<option value="1">factorization</option>
+							<option value="2">prime test</option> 
+							<option value="3">exponentation</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td> Write number(s): </td>
+					<td> <input type = "text" name = "line" style = "width:200px"> </td>
+				</tr>
+				<tr> <td colspan = 2> *for 1-st and 2-nd options type one integer number,<br> for exponentation - two, separated by space.</td> </tr>
+				<tr> <td colspan = 2> <input type = "submit" value = "DO" style="width:300px"></td> </tr>
+				<tr>
+					<td> Result: </td> 
+					<td> <input type = "text" value = "#result#" style = "width:200px"> </td>
+				</tr>
+			</table>			  
+		</form>		
+     </div>
+    <div id="footer" style="background-color:#00FF7F;clear:both;text-align:center;"> Alimzhan Amanov © </div>
+</div>
+</body>
+</html>
